@@ -1,3 +1,4 @@
+// app.js file 
 import express from "express";
 import { config } from "dotenv";
 import cors from "cors"
@@ -12,7 +13,7 @@ import appointmentRouter from "./router/appointmentRouter.js"
 const app = express();
 
 
-config({ path: "./config/config.env" })
+config({ path: "./.env" });
 
 app.use(cors(
     {

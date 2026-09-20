@@ -1,5 +1,6 @@
 import React from "react";
-import Carousel from "react-multi-carousel";
+import CarouselModule from "react-multi-carousel";
+const Carousel = CarouselModule.default || CarouselModule;
 import "react-multi-carousel/lib/styles.css";
 
 const Departments = () => {
